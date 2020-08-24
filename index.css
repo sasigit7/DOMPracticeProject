@@ -1,0 +1,59 @@
+ body {
+    margin: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    display: grid;
+    justify-content: center;
+    background-color: beige;
+}
+
+.title {
+    color: rgb(60, 175, 137);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.entryTextBox {
+    width: 25em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    background-color: rgb(233, 163, 78);
+    border-radius: 25px;
+    border: unset;
+    
+}
+
+.entryTextBox:focus {
+    outline: none;
+}
+
+#entryForm .button {
+  border: unset;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-left: 76%;
+  background-color: rgb(117, 221, 221);
+}
+
+#entriesSection {
+  background-color: #16697A;
+  color: #ede7e3;
+  padding: 2em;
+  max-width: 20em;
+  border: unset;
+  border-radius: 25px;
+  margin-top: 1em;
+  font-family: cursive;
+}
+
+.entriesNav {
+    padding-bottom: 1em;
+}
+
+.displayEntryButton {
+    margin: 0.2em;
+}
+
+.displayEntryButton:hover {
+    cursor: pointer;
+}
